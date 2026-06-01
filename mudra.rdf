@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification/"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Mudra_identification="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#hasMeaning -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#hasMeaning">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#hasSloka -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#hasSloka">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mudra"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Alapadma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Alapadma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>A fully bloomed lotus, Wood apple, Circular movement, Breast, Yearning to the beloved, Mirror, Full moon, Beautiful form, Hair-knot, Moon pavilion, Village, Great anger, Pond or lake, Cart, Type of bird, Murmuring sound, Praise</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Vikachaabjae Kapitthadiphalae cha
+Aavarthakae Kuchae Virahae Mukurae
+Poorna-chandrae Sowndarya-bhavanae
+Dhamillae Chandrashalayam Gramae Uddhata kopayoho
+Tatakae Shakatae Chakravakae Kalakalaravae Shlaganae
+So alapadmashcha Keertito Bharatagamae</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Anjali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Anjali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Used for the salutation to God, Teacher and the Learned. We hold the Anjali hasta above the head for the Gods, in front of the face for the teachers and in front of chest for the learned.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Devataguru Vipranaam
+Namaskaraepyanukramaat
+Karyas shiromukhorastho
+Viniyoganjali karaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Arala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Arala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To drink poison, nectar etc, Strong winds (storm, gale etc)</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Vishadhyam Amritam Panay Pranchanda Pavana</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Ardhachandra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Ardhachandra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Moon, 8-day of the weaning moon, Seizing one by the throat, A spear, Offering to God, Plate, Origin or Birth, Waist, Thinking / Worrying, Contemplation, Meditation, Prayers, Touching the limbs, Greeting common people</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Chandray Krishna AshtamiBaaji Gala Hastartha Kepicha
+BhalaYudha Devathanam Abishechana Karmani
+Bukpathra Chudbava Katyaam Chintayam Athma-Vachakam
+Dhyana Prathana Anganam-Sparsha
+Prakruthanam Namaskaram Ardha Chandrani Jujyathay</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Ardhapataka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Ardhapataka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Leaves, Writing pad, Bank of a river, To say Both, Saw, Knife, Flag, Gopuram of a Temple, Horns</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Pallavae phalakae theerae Ubhayorithivachakae
+Krakachae Churikayam cha dhwajae gopura shringayoho
+Yujyathae ardhapataakoyam Thathatkarmaprayogakae</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Avahittha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Avahittha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Love, Catching the ball and Breasts.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Srungara Natanechiva Leelaa
+Kanduka dharane Kucharthe
+Yujyate Soyamavahitthakaraabhidhaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Bherundha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Bherundha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show a bird couple.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Bherundhapakshi Dampatyorbherundhaka Eteeritaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Bhramara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Bhramara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Show honey bee, Parrot, Meditation, Show birds like kokila sarasa</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Bhramarecha shukae yogae
+SarasaeKokiladishu bhramarakhyascha
+Hastoyam Keerthitho Bharatagamae</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chakra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chakra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasSloka>Chakrahastassa vigneyachakrarthe viniyujyate</Mudra_identification:hasSloka>
+        <Mudra_identification:hasSloka>To show Chakra, the weapon of Lord Vishnu.</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chandrakala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chandrakala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Moon</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Yesha Chandrakalaa chandrakallayame Vyujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chatura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Chatura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Fragrance from kastoori, Show small quantity, Gold and other metals, Wetness, Sadness, Taste, Eye, Differentiate color, Promise, Romance, Slow movement, Breaking, Seated, Molten butter, Oil</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Kastooryam kinchidapyarthae
+Swarnataamraadi lohakae
+Aardrae khede rasaaswasae lochanae varnabhedakae
+Pramanae sarasae mandhagamanae shakaleekrutae
+Aasanae ghruta tailadao yujyatae chaturakaraha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Dola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Dola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Used in the beginning of a dance.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Naatyarambhe Prayoktavyam Iti Natyavidovidhuhu</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Garuda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Garuda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show a bird called Garuda.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Garudo Garudarthe cha Yujyate Baratagame</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Hamsapaksha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Hamsapaksha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show number 6, Bridge, Impression of the nails, Way of doing thing</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Shatsankhyayaam Setubandhe Nakharakankhanetatha Vidhane Hamsapakshoyam Keertito Bharatagame</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Hamsasya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Hamsasya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Tying the sacred thread of marriage, Advice, Decision, Excitement, Pearls &amp; other precious stones, Drawing, Fly, Drop of water, Wick of the lamp, Polishing, Searching, Jasmine &amp; other flowers, Drawing a line, Holding garland, To say ‘i am Brahma’, Saying ‘No’, Looking at the polished article</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Mangalyasutra bandhechapyupadesha Vinishchayae Romanchae mouktikadoucha
+Chitrasamlekhanae thatha Damshathua jalabindoucha Deepavartiprasaranae
+Nikashae shodhanae mallikadou cha Rekhavalekhanae malayaamvahanae
+Sohambhavanayancha Roopakae Naasteetivachanechapi Nikashanamchabhavane
+Krutakrutyepi Hamsasyaha Eerito Bharatagame</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kangula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kangula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Lemon, Breasts of a teenager, Flower called Kalhara, A bird called Chakora, Beetle nut, Jingles, Tablets, A bird called Chataka, Kangoola Hasta is used</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Lakuchasya Phale Balakuche Kalharake tatha
+Chakore Kramuke Baalakinkinyam Ghutikadike
+Chaatake Yujyatechayam Kangoolakaranaamakaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kapitham -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kapitham">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Goddess Lakshmi, Goddess Saraswati, Going Around, Holding the cymbals (Tala), Milking the cows, Putting eye liners, Holding Flowers, Holding the Saree(pallu), Draping a cloth on the face, To Hold Lamp and Incense</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Lakshmyamchiva Saraswatyam Veshtane Taladharane
+Godohanechanjanecha Leelattasumadharane
+Chelanchaladigrahane Patasyivavakuntane
+Dhoopadeepaarchanechapi Kapithasamprayujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kapotha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kapotha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show respectful salutation to the teachers, as a mark of acceptance and to show politeness (vinayam).</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Pranaamae Gurusambhashae
+Vinayangi kritaeshwayam</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Karkata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Karkata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show the arrival of a crowd, showing the belly, blowing the shanku (counch), twisting &amp; stretching the limbs and bending branch of a tree.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Samoohaa gamanae Tundadarshanae
+Shankhapoorane Angaanaam Motane
+Shaakhonnamaanecha Niyujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kartaree_swastika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kartaree_swastika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasSloka>Shakhaasucha Adri Shikhare
+Vruksheshucha Niyujyate</Mudra_identification:hasSloka>
+        <Mudra_identification:hasSloka>To show the branches of a tree, tip of Mountains and Trees.</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kartarimukha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Kartarimukha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Separation of man and women, Opposition or overturning, Stealing or rolling, Corner of the eye, Death, Disagreement, Lightning, Married couple fights and separate / In separation from the loved one, To fall down, A creeper</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Shtripum-sayoosthu-vishlasya
+Viparyaa-sapaday-pivaaLuntana
+Nayana-amtham Marana Bheda-bhavana
+Vidhyu-dartha Api-yekashiyaa-viraha Patana Latayan
+Yujathay Yasthu Sakara Kartarimukhaa</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Katakamukha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Katakamukha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Plucking flowers, Wearing a necklace of pearls or flowers, Drawing the arrow at the centre of the bow, Offering betel leaves, Preparing paste of musk, To smell, Speak, Glancing</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Kusumaapachayae muktasrakdamnam dharanam
+Sharamadhyaakarshanam Nagavallipradhanam
+Kasturikaadivastunam peshana Gandhavasana
+Vachana Drushti yujyathae katakamukha karaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Katakavardhana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Katakavardhana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Coronation, to worship and to show weddings.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Pattabhishaekae Poojayam Vivahadishu Yujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Keelaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Keelaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Snehecha Narmalaapecha
+Viniyogosya Sammataha</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasMeaning>To show friendly talk.</Mudra_identification:hasMeaning>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Khatva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Khatva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasSloka>Khatvahastobhavedeshaha
+Khatvaadishu Niyujyate</Mudra_identification:hasSloka>
+        <Mudra_identification:hasSloka>To show Bed.</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Koorma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Koorma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Turtle, Tortoise</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Koormahastasyavigneyaha
+Koormarthe Viniyujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Matsya -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Matsya">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasSloka>Etasya Viniyogastu
+Matsyarthe Sammatobhavet</Mudra_identification:hasSloka>
+        <Mudra_identification:hasSloka>To show Fish.</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mayura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mayura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>peacock, A creeper vine climbing, Bird of Omen, Vomiting, Moving the hair/Decorating the forehead, Eye, putting Kajal, Putting Tilak mark on forehead, Sprinkling water over the head; holy bathing, Discussing the sastra, Very famous</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Mayurasyam Latayancha Shakuna Vamana
+Alakashyapa Nayana Lalaata-Tilakam-Shucha
+Nadyu-Ddakasya-Niksheypam Shastra-Vaada Prasi-Dhaka
+Evamarteshu Yujyanthe MayuraKara Bhaavanaaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mrugasheersha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mrugasheersha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Women, Cheeks, Way of doing things, To show respect, Scare, Argument, Back Stage, The place of living, Forehead, Meeting of people, Sacred design on the floor, Massaging the feet, Getting people together, House, Holding an umbrella, Stairs, Gait, To call the loved one, To show Movement this hasta is used</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Streenamarthe Kapolecha Krama Maryadayorapi
+Bheete Vivade Nepathye Aavasecha Tripundrake
+Mukhamukhe Rangavalyom Paadasamvahanepicha
+Sarvasammelanekaarye Mandire Chatradharane
+Sopane Padavinyase Priyahvane Tathivacha
+Sancharecha Prayujyeta Bharatagamakovidhihi</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mukula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mukula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show the flower Lily, Eating, Cupid, angel, Smearing sacred marks on the body, Belly button, Banana Flower</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Kumudae bhojanae Panchabanae mudradi dharanae Nabhao cha kadalipushpae
+Yujyathae mukula karaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mushti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Mushti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Steadiness, Grasping one’s hair, Courage, Holding things, Fighting mood of wrestlers</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Shtiram Kachagraha Daartya Vasthvadeenaamcha Dharana
+Maliaanam Yudhabava Mushti Hasta Ya Mishyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Nagabanda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Nagabanda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Bhujagadampatee Bhaave
+Nikunchanaamcha darshane
+Athrvanasya mantreshu
+Yojyo Bharatakovidhihi</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasMeaning>To show Snakes, Creeper, Chamber and Atharva Veda Slokas.</Mudra_identification:hasMeaning>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Paasha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Paasha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Playful, Quarrel, Rope and Chains.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Anyonyakalahe Paashe
+Shynkhalaayaam Niyujyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Padmakosha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Padmakosha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Various fruits, Round breast of a women, Circular movement, Ball, Bowl, Food, Flower garland, Mango, Showering flowers, Cluster of flowers, Hibiscus flower, Preparing big bowl of food for elephant or bell shape, Ant hill, Lotus, Egg</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Phalae bilwa kapitha
+Sthrinam cha kutch kumbhayoh
+Avartakae kandukae sthalyam
+Bhojanae pushpa koraka
+Shakaraphala pushpavarsha
+Manjarikaadishu japakusuma
+Gantarupavidhanaka valmika
+Kamala Anda Ethi padmakoshayo karaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Pathaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Pathaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Beginning of the dance, Rain clouds, Forest, To deny, object, avoid, Bossom, Night, River, Heaven, Horse, Cutting, Wind, Sleeping, Walking, Show power, Bless, Moon light, Strong sunlight, Opening &amp; closing door, Mentioning of the seven cases, Waves, Entering a street, Equality, Massaging or applying sandal paste, Oneself, Take an oath, Silence, Secret act, Palm leaf, write letter, Shield, Touching things, Blessing, Powerful king, To say ‘this’ or ‘that’, Ocean, To be good, Address someone, To move forward, Sword, Form, To wear, Month, Year, Rainy day, To sweep</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Natyarambhae vaarivahae vanai vastu nishedhanae
+Kuchasthalae nishayam cha nadyam amaramandalae
+Turangae khandanae vayo shayanae gamanodyamae
+Pratapae cha prasadae cha chandrikayam Ghana tapae
+Kavaadapaatanae saptavibhaktyarthae tharangae
+Veedi praveshabhavepi samatvae cha angaragakae
+Aatmarthae shapathae chapae thooshnim bhava nidharshanae
+Thaalapatrae cha kheitae cha dravyadi sparshanae thatha
+Aashirvadaekriyayam cha nrupa sreshtasya
+Thatra Thatreti vachanae sindhyo cha sukruthikramae
+Sambhodhanae purogaepae khadgarupasya dharanae
+Masae samvathsarae varsha dinae sammarjanae thatha
+Yevamardhyeshu yujanthae pataaka hasta bhavanaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Pushpaputa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Pushpaputa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Lamp Offering, Children, Accept Fruits, Offering to the Sun in the evenings and Chant Holy prayers.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Neeraajenavidhou baala
+Vaari Phaladikrehanaepicha
+Sandhyayaam marghyadaanecha
+Mantrapushpecha yujyathae</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Samdamsha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Samdamsha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Generosity, Sacrificial Offering, Wound, Insects, Fear, Offering, Number 5</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Udaare Balidanecha Vranae Keetae Manobhaye Archane Panchavakravye Samdamshakyobhidheeyate</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Samputa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Samputa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To cover things and to show the sacred box in which the idols are placed.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Vastvaacchchade Samputecha
+Samputahkara Eeritaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Sarpasheersha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Sarpasheersha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Sandalwood paste, Snake, Slow, Sprinkling, Caring, Holy water, Elephant’s Forehead, To show the muscles of wrestlers, Sarpasheersha hasta is used</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Chandane Bhujage Mande Prokshane Poshanadishu
+Devarshudakadaaneshu Hyaspale Gajakumbhayoho
+Bhujaasphaletu Mallanaam Yujyate Sarpasheershakaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shakatam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shakatam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Demons.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Raakshasaabhinayechaayam
+Niyukto Bharatadibhihi</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shankha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shankha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show shanku (Conch).</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Shankhaadishuniyujyoya
+Mityevam Bharataadayaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shikharam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shikharam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Manmatha or Kama, the God of love, Bow, Pillar, Certainty, Offering to ancestors, Lips, To pour liquid, Teeth, Questioning, Shiva Lingam or Phallic symbol, Saying “I don’t know”, Recollection Abhinayaanthikam – Intimate suggestion, To lighten the waist band, Embracing, Sounding a bell</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Madhana Kaamuka Sthamba
+Nishchaya Pithrukarmani
+Oshtra Pravishtaroopa
+Radhana Prashnabhavana
+Linga Naastheetivachana
+Samarana Katibhandhakarshana
+Parirambhavidikrama Gantaninadha
+Sikhara Jujyate Bharata Dibi</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shivalinga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shivalinga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasSloka>To show Shivalinga (Lord Shiva).</Mudra_identification:hasSloka>
+        <Mudra_identification:hasSloka>Viniyogastu tatsyva Shivalingasya darshanae</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shukatunda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Shukatunda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Shooting an arrow, A Spear, Remembering the past, Mystic feeling, Angry Mood</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Bhana prayoga kunthartha aalayasya smriti karma marmookthyam mugrabhava</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Simhamukha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Simhamukha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Coral, Pearl, Fragrance, Curls, Hearing, Point, Salvation, Heart, Sacred fire, Rabbit, Elephant, Sacred Grass, Flower, Lion’s face, Examining the medicinal preparations, Simhamukha Hasta is used</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Vidrume Mouktikechiva Sugandhe Alakasparshane
+Aakarnanecha Prushati Moksharthe Hrudisamstitaha
+Home Shashe Gaje Darbhachalane Padmadamini
+Simhanane Vaidyapakashodhane Simhavakrakaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Suchi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Suchi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Showing Number One, Showing Number One, To show 100, Sun, City, Universe, Saying ‘That’s how it is’, Asking when, why, who, how, Scaring, Thin or Skinny, Wonder, Showing the hair, Umbrella, Capable, Room, Excitement, Beating an instrument called Bheri, Showing potter’s Wheel, Wheel of a chariot, Group of People, Thinking, Evening all these are shown using Suchi Hasta</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Ekarthepi arabrahmabhavanayam Shatapicha Ravou Nagaryam Lokarthe Tathepivachanepicha Yachabdepichatatchabdhe Vyajanarthepitarjane Karshye Shalakavapushe Ashcharye Venibhavane Chatre Samarthe Konecha Romalyam Bheribhedhane Kulalachakrabhramane Rathange Mandaletatha
+Vivechane Dinantecha Suchi Hasta Prakeertithaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Swastika -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Swastika">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show an Alligator (a crocodile), talking with fear, to show an argument and to praise.</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Samyogena Swastikakhyo Makarae viniyujyate
+Bhayavade Vivadecha Keertane Swastikobhavet</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Tamrachooda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Tamrachooda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show Rooster, A bird called Baka, crow, camel, calf, to show letters</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Kukkutadou bakae kaakae Ushtrae vatsae cha lekhanae TaamrachoodaKarakhyasou
+Keertitou Bharatagame</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Tripataka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Tripataka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Crown, Tree, Thunderbolt, Lord Indra, A kind of flower, To show flames, Pigeon, Drawing patterns on face or chest, Shooting arrow, Circling</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Makutae vrikshabhaavecha Vajrae Thaddharavasavae
+Ketakae kusumae Deepae Vanhijwalavigrumbhanae
+Kapoothae patralekhayaam Baanaarthae parivarthanae
+Yujyathae Tripatzakoyaam Kathithou Bharatamuthamaihi</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Trishoola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Trishoola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#AsamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show a leaf called Bilwa, To show the number 3</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Bilwa patrae tritwayuktae Trishoola karaeritaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Utsanga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Utsanga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>To show embracing someone, shyness, show one’s body and to show teaching discipline to children</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasSloka>Aalinganaecha lajjayaam
+Angadaadipradarshanae
+Baalanaamshikshanechayaam
+Utsango yujyatae karaha</Mudra_identification:hasSloka>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Varaha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#Varaha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification#SamyutaHasta"/>
+        <Mudra_identification:hasMeaning>Etasyaviniyogastu Varaharthe tu Yujyate</Mudra_identification:hasMeaning>
+        <Mudra_identification:hasMeaning>To show Boar (Wild Pig)</Mudra_identification:hasMeaning>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,1049 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification">
+    <Prefix name="" IRI="http://www.semanticweb.org/acer/ontologies/2026/4/Mudra_identification/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AsamyutaHasta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mudra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamyutaHasta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMeaning"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSloka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alapadma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anjali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ardhachandra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ardhapataka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Avahittha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bherundha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bhramara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chakra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chandrakala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chatura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Garuda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamsapaksha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamsasya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kangula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kapitham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kapotha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Karkata"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kartaree_swastika"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kartarimukha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Katakamukha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Katakavardhana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Keelaka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khatva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Koorma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matsya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mayura"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrugasheersha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mukula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mushti"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nagabanda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paasha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Padmakosha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pathaka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pushpaputa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samdamsha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samputa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sarpasheersha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shakatam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shankha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shikharam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shivalinga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shukatunda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simhamukha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suchi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swastika"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tamrachooda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tripataka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trishoola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Utsanga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Varaha"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AsamyutaHasta"/>
+        <Class IRI="#Mudra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamyutaHasta"/>
+        <Class IRI="#Mudra"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Alapadma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Anjali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Arala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Ardhachandra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Ardhapataka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Avahittha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Bherundha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Bhramara"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Chakra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Chandrakala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Chatura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Dola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Garuda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Hamsapaksha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Hamsasya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Kangula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Kapitham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Kapotha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Karkata"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Kartaree_swastika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Kartarimukha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Katakamukha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Katakavardhana"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Keelaka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Khatva"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Koorma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Matsya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Mayura"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Mrugasheersha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Mukula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Mushti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Nagabanda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Paasha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Padmakosha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Pathaka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Pushpaputa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Samdamsha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Samputa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Sarpasheersha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Shakatam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Shankha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Shikharam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Shivalinga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Shukatunda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Simhamukha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Suchi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Swastika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Tamrachooda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Tripataka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsamyutaHasta"/>
+        <NamedIndividual IRI="#Trishoola"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Utsanga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamyutaHasta"/>
+        <NamedIndividual IRI="#Varaha"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Alapadma"/>
+        <Literal>A fully bloomed lotus, Wood apple, Circular movement, Breast, Yearning to the beloved, Mirror, Full moon, Beautiful form, Hair-knot, Moon pavilion, Village, Great anger, Pond or lake, Cart, Type of bird, Murmuring sound, Praise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Alapadma"/>
+        <Literal>Vikachaabjae Kapitthadiphalae cha
+Aavarthakae Kuchae Virahae Mukurae
+Poorna-chandrae Sowndarya-bhavanae
+Dhamillae Chandrashalayam Gramae Uddhata kopayoho
+Tatakae Shakatae Chakravakae Kalakalaravae Shlaganae
+So alapadmashcha Keertito Bharatagamae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Anjali"/>
+        <Literal>Used for the salutation to God, Teacher and the Learned. We hold the Anjali hasta above the head for the Gods, in front of the face for the teachers and in front of chest for the learned.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Anjali"/>
+        <Literal>Devataguru Vipranaam
+Namaskaraepyanukramaat
+Karyas shiromukhorastho
+Viniyoganjali karaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Arala"/>
+        <Literal>To drink poison, nectar etc, Strong winds (storm, gale etc)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Arala"/>
+        <Literal>Vishadhyam Amritam Panay Pranchanda Pavana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Ardhachandra"/>
+        <Literal>Moon, 8-day of the weaning moon, Seizing one by the throat, A spear, Offering to God, Plate, Origin or Birth, Waist, Thinking / Worrying, Contemplation, Meditation, Prayers, Touching the limbs, Greeting common people</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Ardhachandra"/>
+        <Literal>Chandray Krishna AshtamiBaaji Gala Hastartha Kepicha
+BhalaYudha Devathanam Abishechana Karmani
+Bukpathra Chudbava Katyaam Chintayam Athma-Vachakam
+Dhyana Prathana Anganam-Sparsha
+Prakruthanam Namaskaram Ardha Chandrani Jujyathay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Ardhapataka"/>
+        <Literal>Leaves, Writing pad, Bank of a river, To say Both, Saw, Knife, Flag, Gopuram of a Temple, Horns</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Ardhapataka"/>
+        <Literal>Pallavae phalakae theerae Ubhayorithivachakae
+Krakachae Churikayam cha dhwajae gopura shringayoho
+Yujyathae ardhapataakoyam Thathatkarmaprayogakae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Avahittha"/>
+        <Literal>To show Love, Catching the ball and Breasts.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Avahittha"/>
+        <Literal>Srungara Natanechiva Leelaa
+Kanduka dharane Kucharthe
+Yujyate Soyamavahitthakaraabhidhaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Bherundha"/>
+        <Literal>To show a bird couple.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Bherundha"/>
+        <Literal>Bherundhapakshi Dampatyorbherundhaka Eteeritaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Bhramara"/>
+        <Literal>Show honey bee, Parrot, Meditation, Show birds like kokila sarasa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Bhramara"/>
+        <Literal>Bhramarecha shukae yogae
+SarasaeKokiladishu bhramarakhyascha
+Hastoyam Keerthitho Bharatagamae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Chakra"/>
+        <Literal>Chakrahastassa vigneyachakrarthe viniyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Chakra"/>
+        <Literal>To show Chakra, the weapon of Lord Vishnu.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Chandrakala"/>
+        <Literal>Moon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Chandrakala"/>
+        <Literal>Yesha Chandrakalaa chandrakallayame Vyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Chatura"/>
+        <Literal>Fragrance from kastoori, Show small quantity, Gold and other metals, Wetness, Sadness, Taste, Eye, Differentiate color, Promise, Romance, Slow movement, Breaking, Seated, Molten butter, Oil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Chatura"/>
+        <Literal>Kastooryam kinchidapyarthae
+Swarnataamraadi lohakae
+Aardrae khede rasaaswasae lochanae varnabhedakae
+Pramanae sarasae mandhagamanae shakaleekrutae
+Aasanae ghruta tailadao yujyatae chaturakaraha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Dola"/>
+        <Literal>Used in the beginning of a dance.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Dola"/>
+        <Literal>Naatyarambhe Prayoktavyam Iti Natyavidovidhuhu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Garuda"/>
+        <Literal>To show a bird called Garuda.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Garuda"/>
+        <Literal>Garudo Garudarthe cha Yujyate Baratagame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Hamsapaksha"/>
+        <Literal>To show number 6, Bridge, Impression of the nails, Way of doing thing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Hamsapaksha"/>
+        <Literal>Shatsankhyayaam Setubandhe Nakharakankhanetatha Vidhane Hamsapakshoyam Keertito Bharatagame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Hamsasya"/>
+        <Literal>Tying the sacred thread of marriage, Advice, Decision, Excitement, Pearls &amp; other precious stones, Drawing, Fly, Drop of water, Wick of the lamp, Polishing, Searching, Jasmine &amp; other flowers, Drawing a line, Holding garland, To say ‘i am Brahma’, Saying ‘No’, Looking at the polished article</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Hamsasya"/>
+        <Literal>Mangalyasutra bandhechapyupadesha Vinishchayae Romanchae mouktikadoucha
+Chitrasamlekhanae thatha Damshathua jalabindoucha Deepavartiprasaranae
+Nikashae shodhanae mallikadou cha Rekhavalekhanae malayaamvahanae
+Sohambhavanayancha Roopakae Naasteetivachanechapi Nikashanamchabhavane
+Krutakrutyepi Hamsasyaha Eerito Bharatagame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Kangula"/>
+        <Literal>To show Lemon, Breasts of a teenager, Flower called Kalhara, A bird called Chakora, Beetle nut, Jingles, Tablets, A bird called Chataka, Kangoola Hasta is used</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kangula"/>
+        <Literal>Lakuchasya Phale Balakuche Kalharake tatha
+Chakore Kramuke Baalakinkinyam Ghutikadike
+Chaatake Yujyatechayam Kangoolakaranaamakaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Kapitham"/>
+        <Literal>Goddess Lakshmi, Goddess Saraswati, Going Around, Holding the cymbals (Tala), Milking the cows, Putting eye liners, Holding Flowers, Holding the Saree(pallu), Draping a cloth on the face, To Hold Lamp and Incense</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kapitham"/>
+        <Literal>Lakshmyamchiva Saraswatyam Veshtane Taladharane
+Godohanechanjanecha Leelattasumadharane
+Chelanchaladigrahane Patasyivavakuntane
+Dhoopadeepaarchanechapi Kapithasamprayujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Kapotha"/>
+        <Literal>To show respectful salutation to the teachers, as a mark of acceptance and to show politeness (vinayam).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kapotha"/>
+        <Literal>Pranaamae Gurusambhashae
+Vinayangi kritaeshwayam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Karkata"/>
+        <Literal>To show the arrival of a crowd, showing the belly, blowing the shanku (counch), twisting &amp; stretching the limbs and bending branch of a tree.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Karkata"/>
+        <Literal>Samoohaa gamanae Tundadarshanae
+Shankhapoorane Angaanaam Motane
+Shaakhonnamaanecha Niyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kartaree_swastika"/>
+        <Literal>Shakhaasucha Adri Shikhare
+Vruksheshucha Niyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kartaree_swastika"/>
+        <Literal>To show the branches of a tree, tip of Mountains and Trees.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Kartarimukha"/>
+        <Literal>Separation of man and women, Opposition or overturning, Stealing or rolling, Corner of the eye, Death, Disagreement, Lightning, Married couple fights and separate / In separation from the loved one, To fall down, A creeper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Kartarimukha"/>
+        <Literal>Shtripum-sayoosthu-vishlasya
+Viparyaa-sapaday-pivaaLuntana
+Nayana-amtham Marana Bheda-bhavana
+Vidhyu-dartha Api-yekashiyaa-viraha Patana Latayan
+Yujathay Yasthu Sakara Kartarimukhaa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Katakamukha"/>
+        <Literal>Plucking flowers, Wearing a necklace of pearls or flowers, Drawing the arrow at the centre of the bow, Offering betel leaves, Preparing paste of musk, To smell, Speak, Glancing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Katakamukha"/>
+        <Literal>Kusumaapachayae muktasrakdamnam dharanam
+Sharamadhyaakarshanam Nagavallipradhanam
+Kasturikaadivastunam peshana Gandhavasana
+Vachana Drushti yujyathae katakamukha karaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Katakavardhana"/>
+        <Literal>To show Coronation, to worship and to show weddings.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Katakavardhana"/>
+        <Literal>Pattabhishaekae Poojayam Vivahadishu Yujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Keelaka"/>
+        <Literal>Snehecha Narmalaapecha
+Viniyogosya Sammataha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Keelaka"/>
+        <Literal>To show friendly talk.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Khatva"/>
+        <Literal>Khatvahastobhavedeshaha
+Khatvaadishu Niyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Khatva"/>
+        <Literal>To show Bed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Koorma"/>
+        <Literal>To show Turtle, Tortoise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Koorma"/>
+        <Literal>Koormahastasyavigneyaha
+Koormarthe Viniyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Matsya"/>
+        <Literal>Etasya Viniyogastu
+Matsyarthe Sammatobhavet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Matsya"/>
+        <Literal>To show Fish.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Mayura"/>
+        <Literal>peacock, A creeper vine climbing, Bird of Omen, Vomiting, Moving the hair/Decorating the forehead, Eye, putting Kajal, Putting Tilak mark on forehead, Sprinkling water over the head; holy bathing, Discussing the sastra, Very famous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Mayura"/>
+        <Literal>Mayurasyam Latayancha Shakuna Vamana
+Alakashyapa Nayana Lalaata-Tilakam-Shucha
+Nadyu-Ddakasya-Niksheypam Shastra-Vaada Prasi-Dhaka
+Evamarteshu Yujyanthe MayuraKara Bhaavanaaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Mrugasheersha"/>
+        <Literal>To show Women, Cheeks, Way of doing things, To show respect, Scare, Argument, Back Stage, The place of living, Forehead, Meeting of people, Sacred design on the floor, Massaging the feet, Getting people together, House, Holding an umbrella, Stairs, Gait, To call the loved one, To show Movement this hasta is used</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Mrugasheersha"/>
+        <Literal>Streenamarthe Kapolecha Krama Maryadayorapi
+Bheete Vivade Nepathye Aavasecha Tripundrake
+Mukhamukhe Rangavalyom Paadasamvahanepicha
+Sarvasammelanekaarye Mandire Chatradharane
+Sopane Padavinyase Priyahvane Tathivacha
+Sancharecha Prayujyeta Bharatagamakovidhihi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Mukula"/>
+        <Literal>To show the flower Lily, Eating, Cupid, angel, Smearing sacred marks on the body, Belly button, Banana Flower</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Mukula"/>
+        <Literal>Kumudae bhojanae Panchabanae mudradi dharanae Nabhao cha kadalipushpae
+Yujyathae mukula karaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Mushti"/>
+        <Literal>Steadiness, Grasping one’s hair, Courage, Holding things, Fighting mood of wrestlers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Mushti"/>
+        <Literal>Shtiram Kachagraha Daartya Vasthvadeenaamcha Dharana
+Maliaanam Yudhabava Mushti Hasta Ya Mishyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Nagabanda"/>
+        <Literal>Bhujagadampatee Bhaave
+Nikunchanaamcha darshane
+Athrvanasya mantreshu
+Yojyo Bharatakovidhihi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Nagabanda"/>
+        <Literal>To show Snakes, Creeper, Chamber and Atharva Veda Slokas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Paasha"/>
+        <Literal>To show Playful, Quarrel, Rope and Chains.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Paasha"/>
+        <Literal>Anyonyakalahe Paashe
+Shynkhalaayaam Niyujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Padmakosha"/>
+        <Literal>Various fruits, Round breast of a women, Circular movement, Ball, Bowl, Food, Flower garland, Mango, Showering flowers, Cluster of flowers, Hibiscus flower, Preparing big bowl of food for elephant or bell shape, Ant hill, Lotus, Egg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Padmakosha"/>
+        <Literal>Phalae bilwa kapitha
+Sthrinam cha kutch kumbhayoh
+Avartakae kandukae sthalyam
+Bhojanae pushpa koraka
+Shakaraphala pushpavarsha
+Manjarikaadishu japakusuma
+Gantarupavidhanaka valmika
+Kamala Anda Ethi padmakoshayo karaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Pathaka"/>
+        <Literal>Beginning of the dance, Rain clouds, Forest, To deny, object, avoid, Bossom, Night, River, Heaven, Horse, Cutting, Wind, Sleeping, Walking, Show power, Bless, Moon light, Strong sunlight, Opening &amp; closing door, Mentioning of the seven cases, Waves, Entering a street, Equality, Massaging or applying sandal paste, Oneself, Take an oath, Silence, Secret act, Palm leaf, write letter, Shield, Touching things, Blessing, Powerful king, To say ‘this’ or ‘that’, Ocean, To be good, Address someone, To move forward, Sword, Form, To wear, Month, Year, Rainy day, To sweep</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Pathaka"/>
+        <Literal>Natyarambhae vaarivahae vanai vastu nishedhanae
+Kuchasthalae nishayam cha nadyam amaramandalae
+Turangae khandanae vayo shayanae gamanodyamae
+Pratapae cha prasadae cha chandrikayam Ghana tapae
+Kavaadapaatanae saptavibhaktyarthae tharangae
+Veedi praveshabhavepi samatvae cha angaragakae
+Aatmarthae shapathae chapae thooshnim bhava nidharshanae
+Thaalapatrae cha kheitae cha dravyadi sparshanae thatha
+Aashirvadaekriyayam cha nrupa sreshtasya
+Thatra Thatreti vachanae sindhyo cha sukruthikramae
+Sambhodhanae purogaepae khadgarupasya dharanae
+Masae samvathsarae varsha dinae sammarjanae thatha
+Yevamardhyeshu yujanthae pataaka hasta bhavanaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Pushpaputa"/>
+        <Literal>To show Lamp Offering, Children, Accept Fruits, Offering to the Sun in the evenings and Chant Holy prayers.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Pushpaputa"/>
+        <Literal>Neeraajenavidhou baala
+Vaari Phaladikrehanaepicha
+Sandhyayaam marghyadaanecha
+Mantrapushpecha yujyathae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Samdamsha"/>
+        <Literal>To show Generosity, Sacrificial Offering, Wound, Insects, Fear, Offering, Number 5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Samdamsha"/>
+        <Literal>Udaare Balidanecha Vranae Keetae Manobhaye Archane Panchavakravye Samdamshakyobhidheeyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Samputa"/>
+        <Literal>To cover things and to show the sacred box in which the idols are placed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Samputa"/>
+        <Literal>Vastvaacchchade Samputecha
+Samputahkara Eeritaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Sarpasheersha"/>
+        <Literal>Sandalwood paste, Snake, Slow, Sprinkling, Caring, Holy water, Elephant’s Forehead, To show the muscles of wrestlers, Sarpasheersha hasta is used</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Sarpasheersha"/>
+        <Literal>Chandane Bhujage Mande Prokshane Poshanadishu
+Devarshudakadaaneshu Hyaspale Gajakumbhayoho
+Bhujaasphaletu Mallanaam Yujyate Sarpasheershakaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Shakatam"/>
+        <Literal>To show Demons.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shakatam"/>
+        <Literal>Raakshasaabhinayechaayam
+Niyukto Bharatadibhihi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Shankha"/>
+        <Literal>To show shanku (Conch).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shankha"/>
+        <Literal>Shankhaadishuniyujyoya
+Mityevam Bharataadayaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Shikharam"/>
+        <Literal>Manmatha or Kama, the God of love, Bow, Pillar, Certainty, Offering to ancestors, Lips, To pour liquid, Teeth, Questioning, Shiva Lingam or Phallic symbol, Saying “I don’t know”, Recollection Abhinayaanthikam – Intimate suggestion, To lighten the waist band, Embracing, Sounding a bell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shikharam"/>
+        <Literal>Madhana Kaamuka Sthamba
+Nishchaya Pithrukarmani
+Oshtra Pravishtaroopa
+Radhana Prashnabhavana
+Linga Naastheetivachana
+Samarana Katibhandhakarshana
+Parirambhavidikrama Gantaninadha
+Sikhara Jujyate Bharata Dibi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shivalinga"/>
+        <Literal>To show Shivalinga (Lord Shiva).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shivalinga"/>
+        <Literal>Viniyogastu tatsyva Shivalingasya darshanae</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Shukatunda"/>
+        <Literal>Shooting an arrow, A Spear, Remembering the past, Mystic feeling, Angry Mood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Shukatunda"/>
+        <Literal>Bhana prayoga kunthartha aalayasya smriti karma marmookthyam mugrabhava</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Simhamukha"/>
+        <Literal>To show Coral, Pearl, Fragrance, Curls, Hearing, Point, Salvation, Heart, Sacred fire, Rabbit, Elephant, Sacred Grass, Flower, Lion’s face, Examining the medicinal preparations, Simhamukha Hasta is used</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Simhamukha"/>
+        <Literal>Vidrume Mouktikechiva Sugandhe Alakasparshane
+Aakarnanecha Prushati Moksharthe Hrudisamstitaha
+Home Shashe Gaje Darbhachalane Padmadamini
+Simhanane Vaidyapakashodhane Simhavakrakaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Suchi"/>
+        <Literal>Showing Number One, Showing Number One, To show 100, Sun, City, Universe, Saying ‘That’s how it is’, Asking when, why, who, how, Scaring, Thin or Skinny, Wonder, Showing the hair, Umbrella, Capable, Room, Excitement, Beating an instrument called Bheri, Showing potter’s Wheel, Wheel of a chariot, Group of People, Thinking, Evening all these are shown using Suchi Hasta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Suchi"/>
+        <Literal>Ekarthepi arabrahmabhavanayam Shatapicha Ravou Nagaryam Lokarthe Tathepivachanepicha Yachabdepichatatchabdhe Vyajanarthepitarjane Karshye Shalakavapushe Ashcharye Venibhavane Chatre Samarthe Konecha Romalyam Bheribhedhane Kulalachakrabhramane Rathange Mandaletatha
+Vivechane Dinantecha Suchi Hasta Prakeertithaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Swastika"/>
+        <Literal>To show an Alligator (a crocodile), talking with fear, to show an argument and to praise.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Swastika"/>
+        <Literal>Samyogena Swastikakhyo Makarae viniyujyate
+Bhayavade Vivadecha Keertane Swastikobhavet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Tamrachooda"/>
+        <Literal>To show Rooster, A bird called Baka, crow, camel, calf, to show letters</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Tamrachooda"/>
+        <Literal>Kukkutadou bakae kaakae Ushtrae vatsae cha lekhanae TaamrachoodaKarakhyasou
+Keertitou Bharatagame</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Tripataka"/>
+        <Literal>Crown, Tree, Thunderbolt, Lord Indra, A kind of flower, To show flames, Pigeon, Drawing patterns on face or chest, Shooting arrow, Circling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Tripataka"/>
+        <Literal>Makutae vrikshabhaavecha Vajrae Thaddharavasavae
+Ketakae kusumae Deepae Vanhijwalavigrumbhanae
+Kapoothae patralekhayaam Baanaarthae parivarthanae
+Yujyathae Tripatzakoyaam Kathithou Bharatamuthamaihi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Trishoola"/>
+        <Literal>To show a leaf called Bilwa, To show the number 3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Trishoola"/>
+        <Literal>Bilwa patrae tritwayuktae Trishoola karaeritaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Utsanga"/>
+        <Literal>To show embracing someone, shyness, show one’s body and to show teaching discipline to children</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasSloka"/>
+        <NamedIndividual IRI="#Utsanga"/>
+        <Literal>Aalinganaecha lajjayaam
+Angadaadipradarshanae
+Baalanaamshikshanechayaam
+Utsango yujyatae karaha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Varaha"/>
+        <Literal>Etasyaviniyogastu Varaharthe tu Yujyate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMeaning"/>
+        <NamedIndividual IRI="#Varaha"/>
+        <Literal>To show Boar (Wild Pig)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMeaning"/>
+        <Class IRI="#Mudra"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSloka"/>
+        <Class IRI="#Mudra"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMeaning"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSloka"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

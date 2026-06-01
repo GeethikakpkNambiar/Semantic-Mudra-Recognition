@@ -1,0 +1,53 @@
+                 precision    recall  f1-score   support
+
+      Alapadmam       1.00      1.00      1.00        20
+         Anjali       1.00      1.00      1.00        20
+         Aralam       1.00      0.95      0.97        20
+  Ardhachandran       1.00      1.00      1.00        20
+   Ardhapathaka       1.00      0.95      0.97        20
+        Berunda       1.00      1.00      1.00        20
+       Bramaram       1.00      1.00      1.00        20
+         Chakra       1.00      1.00      1.00        20
+    Chandrakala       1.00      1.00      1.00        20
+       Chaturam       1.00      1.00      1.00        20
+         Garuda       1.00      1.00      1.00        20
+    Hamsapaksha       0.95      1.00      0.98        20
+      Hamsasyam       1.00      1.00      1.00        20
+       Kangulam       1.00      1.00      1.00        20
+         Kapith       0.95      1.00      0.98        20
+       Kapotham       1.00      1.00      1.00        20
+       Karkatta       1.00      1.00      1.00        20
+Kartariswastika       1.00      1.00      1.00        20
+    Katakamukha       1.00      1.00      1.00        20
+ Katakavardhana       1.00      1.00      1.00        20
+     Katrimukha       1.00      0.95      0.97        20
+         Khatva       1.00      1.00      1.00        20
+         Kilaka       1.00      1.00      1.00        20
+          Kurma       1.00      1.00      1.00        20
+         Matsya       1.00      1.00      1.00        20
+         Mayura       1.00      1.00      1.00        20
+    Mrigasirsha       1.00      1.00      1.00        20
+        Mukulam       1.00      1.00      1.00        20
+         Mushti       1.00      1.00      1.00        20
+     Nagabandha       1.00      1.00      1.00        20
+     Padmakosha       1.00      1.00      1.00        20
+          Pasha       1.00      1.00      1.00        20
+        Pathaka       1.00      1.00      1.00        20
+     Pushpaputa       1.00      1.00      1.00        20
+         Sakata       1.00      1.00      1.00        20
+        Samputa       1.00      1.00      1.00        20
+    Sarpasirsha       1.00      1.00      1.00        20
+         Shanka       1.00      1.00      1.00        20
+     Shivalinga       1.00      1.00      1.00        20
+    Shukatundam       0.95      1.00      0.98        20
+       Sikharam       1.00      1.00      1.00        20
+    Simhamukham       1.00      1.00      1.00        20
+          Suchi       1.00      1.00      1.00        20
+      Swastikam       1.00      1.00      1.00        20
+   Tamarachudam       1.00      0.95      0.97        20
+      Trishulam       0.95      1.00      0.98        20
+         Varaha       1.00      1.00      1.00        20
+
+       accuracy                           1.00       940
+      macro avg       1.00      1.00      1.00       940
+   weighted avg       1.00      1.00      1.00       940
